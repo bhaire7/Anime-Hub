@@ -1,0 +1,184 @@
+
+html{
+	color: white;
+}
+
+body{
+	font-family: montserrat;
+	background-color: black;
+}
+											 /*this .image is use for all image in html */
+.image__flex{  
+	display: flex;
+}
+
+ .image{
+	width:300px;
+	position: relative;
+	margin: 20px;
+}
+
+.image__img{
+	width: 100%;
+	display: block;
+}
+
+ .image__overlay{
+	position: absolute;
+	top: 0;
+	left:0;
+	width: 100%;
+	height: 100%;
+	color: white;
+	background: rgb(0, 0, 0, 0.6);
+	display: flex;
+	flex-direction: center;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Borel', cursive;
+	opacity: 0;
+	transition: 0.2s;
+}
+
+ .image__overlay:hover{
+	opacity: 1;
+}
+
+ .image__title{
+	font-size: 2em;
+	font-weight: bold;
+}
+									/*till this .image tag*/
+
+
+.navigation nav{
+	height: 80px;
+	background-color: #0082e6;
+	width: 100%;
+	position: relative;
+	right: 12px;
+	margin: 10px;
+}
+
+.navigation label.logo{
+	color: darkred;
+	line-height: 80px;
+	font-size: 25px;
+	text-shadow: 2px 2px black;
+	background-color:  #0082e6;
+	font-weight: bold;
+	font-family: cursive;
+	position: relative;
+    left: 30px; 
+}
+
+.navigation nav ul {
+	float: right;
+	margin-right: 20px;
+	background-color: #0082e6;
+	word-spacing: 30px;
+}
+
+.navigation li{
+	display: inline;
+	text-decoration: none;
+}
+
+.navigation nav ul li a{
+	color: white;
+	font-size: 17px;
+	text-transform: uppercase;
+	text-decoration: none;
+	border-radius: 3px;
+	background-color: #0082e6;
+	position: relative;
+	top: 15px;
+	margin: 0 5px;
+	line-height: 10px;
+}
+.navigation nav  a.action,.navigation a:hover {
+	background: red;
+	transition: .5s;
+}
+
+h1{
+	color: red;
+	font-family: sans-serif;
+}
+
+p.intro{
+	position: relative;
+	bottom: 20px;
+	font-weight: bold;
+}
+
+div.poster h3{
+	font-weight: bold;
+	position: relative;
+	right: 12px;
+	font-family: 'Borel', cursive;
+	text-align: center;
+	font-size: 30px;
+}
+
+.trend h3{
+  font-family: 'Borel', cursive;
+  text-align: center;
+  font-size: 30px;
+  display: block;
+}
+
+.insta{
+	height: 60px;
+	background-color: #0082e6;
+	width: 100%;
+	position: relative;
+	right: 12px;
+	margin: 10px;
+}
+#text{
+	font-family: 'Borel', cursive;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 20px;
+	text-align: center;
+}
+#text a{
+		text-decoration: none;
+}
+.box{
+	width: 900px;
+	height: 330px;
+	background-color:#0082e6 ;
+	color: white;
+	margin-right: auto;
+	margin-left: auto;
+}
+.box .pur{
+	padding: 30px 25px;
+}
+.box .pur h1{
+	text-align: center;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	border-bottom: 1px solid;
+	margin-top: 0px;
+}
+.box .pur p{
+	font-size: 20px;
+	text-align: left;
+}
+#last{
+	text-align: center;
+	font-size: 20px;
+}
+
+
+
+.h_line {
+    border-bottom: 6px solid rgb(80, 80, 78);
+    width: 100%;
+    margin: auto;
+}
+
+

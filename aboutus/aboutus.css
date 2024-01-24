@@ -1,0 +1,126 @@
+*{
+	margin:0;
+	padding: 0;
+	font-family:  'Josefin Sans', sans-serif;
+	list-style: none;
+	box-sizing: border-box;
+
+}
+body{
+	background-color:#353c4e ;
+}
+												/*navigation bar*/
+.navigation nav{
+	height: 80px;
+	background-color: black;
+	width: 100%;
+	position: relative;
+
+
+}
+
+.navigation label.logo{
+	color: darkred;
+	line-height: 80px;
+	font-size: 25px;
+	text-shadow: 2px 2px black;
+	background-color:  black;
+	font-weight: bold;
+	font-family: cursive;
+	position: relative;
+    left: 30px; 
+}
+
+.navigation nav ul {
+	float: right;
+	margin-right: 20px;
+	background-color: black;
+	word-spacing: 30px;
+}
+
+.navigation li{
+	display: inline;
+	text-decoration: none;
+}
+
+.navigation nav ul li a{
+	color: white;
+	font-size: 17px;
+	text-transform: uppercase;
+	text-decoration: none;
+	border-radius: 3px;
+	background-color: black;
+	position: relative;
+	top: 25px;
+	margin: 0 5px;
+	line-height: 10px;
+}
+.navigation nav  a.action,.navigation a:hover {
+	background: red;
+	transition: .5s;
+}
+
+
+												/*main box*/ 
+.box{
+	width:900px ;
+	height: 580px;
+	display: flex;
+	background-color:black ;
+	margin-top: 4%;
+	margin-left: auto;
+	margin-right: auto;
+												/*left box with image*/
+}
+.box .left{
+	text-align: center;
+	width: 35%;
+	background-color:black;
+	color: white;
+}
+.box .left img{
+  border-radius: 25px;
+  margin-bottom: 10px;
+  width: 70%;
+  margin-top: 30%;
+  margin-bottom:30px;
+}
+.box .left h4{
+	font-size: 22px;
+	margin-bottom: 12px;
+
+}
+.box .left p{
+	font-size: 12px;
+}
+											/*right box with all the info*/
+.box .right{
+
+	width: 65%;
+	padding: 30px 25px;
+	background-color: #0082e6;
+	color: #f3f3f3;
+}
+.box .right .info_data{
+	display: flex;
+	justify-content: space-between;
+}
+.box .right .info h3{
+	text-transform: uppercase;
+	margin-top: 50px;
+	margin-bottom: 15px;
+	padding-bottom: 5px;
+	border-bottom: 1.5px solid #e0e0e0;
+	color: #353c4e;
+	letter-spacing: 5px;
+}
+.box .right .info p,
+.box .right .info_data .data ul li{
+	font-size: 14px;
+	color: #353c4e;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.box .right .info_data a img{
+  width:50px;
+}
