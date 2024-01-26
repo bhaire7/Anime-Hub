@@ -1,64 +1,99 @@
 *{
-	margin:0;
-	padding: 0;
-	font-family:  'Josefin Sans', sans-serif;
-	list-style: none;
-	box-sizing: border-box;
-
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+	position: relative;
 }
+
 body{
-	background-color:#353c4e ;
-}
-												/*navigation bar*/
-.navigation nav{
-	height: 80px;
-	background-color: black;
-	width: 100%;
-	position: relative;
-
-
+	background-color: #353c4e;
 }
 
-.navigation label.logo{
-	color: darkred;
-	line-height: 80px;
-	font-size: 25px;
-	text-shadow: 2px 2px black;
-	background-color:  black;
-	font-weight: bold;
-	font-family: cursive;
-	position: relative;
-    left: 30px; 
-}
-
-.navigation nav ul {
-	float: right;
-	margin-right: 20px;
-	background-color: black;
-	word-spacing: 30px;
-}
-
-.navigation li{
-	display: inline;
+a{
 	text-decoration: none;
-}
-
-.navigation nav ul li a{
 	color: white;
-	font-size: 17px;
+	background-color: transparent;
+}
+
+														/*Nav Bar*/
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.border{
+	border: 2px solid transparent;
+}
+
+.border:hover{
+   border: 2px solid white;
+}
+
+/*Logo in*/
+.nav-logo{
+    height: 50px;
+    width: 100px;
+	right: 170px;
+}
+
+.logo{
+    background-image: url("/photo/webLogo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+
+
+/*Log in*/
+.nav-login{
+	left: 120px;
+}
+.nav-second{
+    font-size: 0.9rem;
+    font-weight: 700;
+	list-style: none;
+}
+
+span{
+    font-size: 0.7rem;
+}
+
+/*Contact*/
+
+.nav-contact{
+	font-weight: 700;
 	text-transform: uppercase;
-	text-decoration: none;
-	border-radius: 3px;
-	background-color: black;
-	position: relative;
-	top: 25px;
-	margin: 0 5px;
-	line-height: 10px;
+	list-style: none;
+	left: 120px;
+
 }
-.navigation nav  a.action,.navigation a:hover {
-	background: red;
-	transition: .5s;
+
+/*Shop*/
+.nav-shop{
+	font-weight: 700;
+	text-transform: uppercase;
+	list-style: none;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	left: 120px;
 }
+
+/*language*/
+.nav-language{
+	font-weight: 700;
+	left: 120px;
+}
+
+.nav-language img{
+	height: 17px;
+	width: 17px;
+}
+
 
 
 												/*main box*/ 
