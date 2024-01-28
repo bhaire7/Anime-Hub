@@ -133,7 +133,7 @@ span{
 
 	width: 65%;
 	padding: 30px 25px;
-	background-color: #0082e6;
+	background-color: #5a6581;
 	color: #f3f3f3;
 }
 .box .right .info_data{
@@ -146,7 +146,7 @@ span{
 	margin-bottom: 15px;
 	padding-bottom: 5px;
 	border-bottom: 1.5px solid #e0e0e0;
-	color: #353c4e;
+	color: black;
 	letter-spacing: 5px;
 }
 .box .right .info p,
