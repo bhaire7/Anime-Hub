@@ -46,7 +46,10 @@ a{
     height: 50px;
     width: 100%;
 }
-
+.nav-logo img{
+    height: 75px;
+    width: 100px;
+}
 
 /*Log in*/
 .nav-login{
@@ -158,4 +161,33 @@ span{
 }
 .box .right .info_data a img{
   width:50px;
+}
+
+
+.last-logo{
+    margin-top: 20px;
+    border-top: 3px solid black;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    background-image: url("/photo/webLogo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+
+}
+
+.last-section{
+    color: white;
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.copyright{
+font-size: 0.7rem;
 }

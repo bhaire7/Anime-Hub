@@ -48,6 +48,7 @@ a{
 }
 
 
+
                                                             /*Log in*/
 .nav-login{
 	left: 120px;
@@ -124,15 +125,13 @@ span{
 }
 
                                                                 /*Shop Section*/
-.b{
-display: flex;
-height: 4px;
-opacity: 1;
-background-color: black;
-margin-top: 1rem;
-position: relative;
-}
+
 .shop-msg{
+    margin-top: 5px;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;
+    border-left: 5px solid black;
     font-size: 2rem;
     font-weight: 700;
     color: white;
@@ -140,7 +139,7 @@ position: relative;
     align-items: center;
     text-align: center;
     display: flex;
-    margin-top: 1rem;
+
 
 }
 .shop-section{
@@ -152,7 +151,7 @@ position: relative;
 .box{
     height: 500px;
     width: 23%;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
     background-color: #0f1111;
     color: white;
 }
@@ -176,7 +175,7 @@ position: relative;
 .sale-banner {
     position: relative;
     width: 100%;
-    margin-top: 0.5rem;
+    margin-top: 2.5px;
     background-image: url("photo/sale.png");
     background-size: cover;
     height: 300px;
@@ -225,4 +224,31 @@ position: relative;
     margin-top: 260px;
     font-weight: 900;
     font-family: serif;
+}
+.last-logo{
+    margin-top: 20px;
+    border-top: 3px solid black;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    background-image: url("photo/webLogo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+
+}
+
+.last-section{
+    color: white;
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.copyright{
+font-size: 0.7rem;
 }
