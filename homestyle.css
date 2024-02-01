@@ -33,11 +33,15 @@ a{
    border: 2px solid white;
 }
 
-                                                            /*Logo in*/
+                                                            /*Logo */
 .nav-logo{
     height: 50px;
     width: 100px;
 	right: 170px;
+}
+.nav-logo img{
+    height: 75px;
+    width: 100px;
 }
 
 .logo{
