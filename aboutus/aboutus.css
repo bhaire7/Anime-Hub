@@ -155,17 +155,17 @@ span{
 .box .right .info p,
 .box .right .info_data .data ul li{
 	font-size: 14px;
-	color: #353c4e;
+	color: #171a22;
 	margin-bottom: 10px;
 	margin-top: 10px;
 }
 .box .right .info_data a img{
   width:50px;
 }
-
+													/* last section */
 
 .last-logo{
-    margin-top: 20px;
+    margin-top: 50px;
     border-top: 3px solid black;
     height: 60px;
     display: flex;
@@ -182,7 +182,6 @@ span{
 
 .last-section{
     color: white;
-
     justify-content: center;
     align-items: center;
     display: flex;
@@ -190,4 +189,5 @@ span{
 
 .copyright{
 font-size: 0.7rem;
+margin-bottom: 10px;
 }
