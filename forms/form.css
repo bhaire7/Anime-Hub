@@ -1,11 +1,106 @@
-body{
-
-	background: #353c4e;
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+	position: relative;
 }
+
+body{
+	background-color: #353c4e;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+	background-color: transparent;
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.border{
+	border: 2px solid transparent;
+}
+
+.border:hover{
+   border: 2px solid white;
+}
+
+                                                            /*Logo */
+.nav-logo{
+    height: 50px;
+    width: 100px;
+	right: 170px;
+}
+.nav-logo img{
+    height: 75px;
+    width: 100px;
+}
+
+.logo{
+    background-image: url("/photo/webLogo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+
+
+
+                                                            /*Log in*/
+
+.nav-home{
+	font-weight: 700;
+	text-transform: uppercase;
+	list-style: none;
+	left: 120px;
+
+}
+
+
+                                                            /*Contact*/
+
+.nav-contact{
+	font-weight: 700;
+	text-transform: uppercase;
+	list-style: none;
+	left: 120px;
+
+}
+
+                                                            /*Shop*/
+.nav-shop{
+	font-weight: 700;
+	text-transform: uppercase;
+	list-style: none;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	left: 120px;
+}
+
+                                                            /*language*/
+.nav-language{
+	font-weight: 700;
+	left: 120px;
+}
+
+.nav-language img{
+	height: 17px;
+	width: 17px;
+}
+
+
+
 .topbox{
+	padding-top: 50px;
 	width: 800px;
 	margin: 0 auto;
-	background-color: black;
+	background-color: #0f1111;
 	color: white;
 	padding: 25px;
 	margin-bottom: 10px;
@@ -13,10 +108,50 @@ body{
 	border-top: 10px solid red;
 }
 .box{
+	
 	width: 800px;
 	margin: 0 auto;
-	background-color: black;
+	background-color: #0f1111;
 	color: white;
 	padding: 25px;
 	
+}
+.box-content{
+	display: table-cell;
+	font-weight: 500;
+	justify-content: center;
+	align-items: center;
+
+}
+.box-content-Pnumber{
+	margin-top: 10px;
+}
+
+.last-logo{
+    margin-top: 400px;
+    border-top: 3px solid black;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    background-image: url("/photo/webLogo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+
+}
+
+.last-section{
+    color: white;
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.copyright{
+font-size: 0.7rem;
+margin-bottom: 10px;
 }
