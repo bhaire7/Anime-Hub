@@ -38,18 +38,13 @@ a{
     height: 50px;
     width: 100px;
 	right: 170px;
+	
 }
-
-.logo{
-    background-image: url("/photo/webLogo.png");
-    background-size: cover;
-    height: 50px;
-    width: 100%;
-}
-.nav-logo img{
-    height: 75px;
+.nav-img{
+    height:75px ;
     width: 100px;
 }
+
 
 /*Log in*/
 .nav-login{
@@ -97,6 +92,15 @@ span{
 	width: 17px;
 }
 
+
+.hero-section{
+    background-size: cover;
+    height: 10px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+	max-width: 100%;
+}
 
 
 												/*main box*/ 
